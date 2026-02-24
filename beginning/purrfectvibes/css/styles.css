@@ -36,6 +36,8 @@ header {
     position: sticky;
     height: 110px;
     background-color: #d3d3d3;
+    padding-bottom: 1%;
+    z-index: auto;
 }
 
 header div img {
@@ -43,11 +45,6 @@ header div img {
     float: left;
 }
 
-header div::after {
-    content: "";
-    display: block;
-    clear: both;
-}
 
 nav a {
     color: #000;
@@ -68,4 +65,102 @@ nav li {
     margin: 20px;
 }
 
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /* Hero */
+.hero {
+    background-color: #ffcf83;
+    height: 330px;
+    position: static;
+}
+
+.hero p {
+    width: 50%;    
+    padding: 15px;
+    float: left;
+    margin-top: 1px;
+    margin-left: -13px;
+}
+
+.hero img {
+    float: right;
+    position: absolute;
+    top: 143px;
+    right: 175px;
+}
+
+.button {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #222e50;
+    float: left;
+    clear: both;
+}
+
+.hero div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Features */
+
+.feature-block {
+    background-color: #fff;
+    width: 315px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;    
+}
+
+/* Testimonials */
+
+.testimonials {
+    background-color: #222e50;
+}
+
+.testimonials h2 {
+    color: #fff;
+}
+
+.testimonial-block {
+    width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.testimonials div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Our Team */
+
+.team-block {
+    width: 210px;
+    display: inline-block;
+    display: ;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #d9d9d9;
+    text-align: center;
+}
+
+footer img {
+    width: 35px;
+}
