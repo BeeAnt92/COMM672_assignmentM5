@@ -162,18 +162,10 @@ header::after {
     text-align: center;
 }
 
-/* .team.container .team-block:nth-child(5) p {
-    padding-bottom: px;
-    height: 62px;
-    overflow-y: hidden;
-} */
-
 .team-block p {
     height: 48px;
     overflow-y: hidden;
 }
-
-
 
 /* Footer */
 
