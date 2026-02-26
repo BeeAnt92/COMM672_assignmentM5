@@ -20,7 +20,8 @@ h2 {
     width: 1200px;
     max-width: 100%;
     padding: 20px;
-    margin: auto;
+    margin: 0 auto;
+    position: relative;
 }
 
 a {
@@ -89,8 +90,8 @@ header::after {
 .hero img {
     float: right;
     position: absolute;
-    top: 143px;
-    right: 175px;
+    top: 14px;
+    right: 19px;
 }
 
 .button {
@@ -101,6 +102,12 @@ header::after {
     background-color: #222e50;
     float: left;
     clear: both;
+}
+
+.button:hover {
+    color: #222e50;
+    border: solid;
+    background-color: transparent;
 }
 
 .hero div::after {
@@ -131,12 +138,12 @@ header::after {
 }
 
 .testimonial-block {
-    width: 300px;
     background-color: #fff;
+    width: 300px;  
     padding: 10px;
     margin: 20px;
-    display: inline-block;
     text-align: center;
+    display: inline-block;
 }
 
 .testimonials div::after {
@@ -147,11 +154,15 @@ header::after {
 
 /* Our Team */
 
-.team-block {
+.team-block{
     width: 210px;
+    margin-left: 20px;
     display: inline-block;
-    display: ;
     text-align: center;
+}
+
+.team-block p > :not(strong) {
+    visibility: hidden;
 }
 
 /* Footer */
