@@ -131,10 +131,12 @@ header::after {
 
 .testimonials {
     background-color: #222e50;
+    padding: 20px;
 }
 
 .testimonials h2 {
     color: #fff;
+    padding-bottom: 10px;
 }
 
 .testimonial-block {
@@ -146,23 +148,25 @@ header::after {
     display: inline-block;
 }
 
-.testimonials div::after {
-    content: "";
-    display: block;
-    clear: both;
+.testimonial-block:nth-of-type(1) {
+    margin-left: 75px;
 }
 
 /* Our Team */
+.team.container {
+    height: 200px;
+}
 
 .team-block{
     width: 210px;
-    margin-left: 20px;
+    margin: 15px 13px;
     display: inline-block;
     text-align: center;
 }
 
-.team-block p > :not(strong) {
-    visibility: hidden;
+.team.container .team-block p {
+    height: 48px;
+    overflow-y: hidden;
 }
 
 /* Footer */
