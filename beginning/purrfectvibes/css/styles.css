@@ -155,9 +155,8 @@ header::after {
 /* Our Team */
 
 .team-block{
-    width: 240px;
-    padding-top: 10px;
-    margin: 15px -2px;
+    width: 205px;
+    margin: 15px;
     display: inline-block;
     text-align: center;
 }
@@ -165,6 +164,14 @@ header::after {
 .team-block p {
     height: 48px;
     overflow-y: hidden;
+}
+
+.team-block:nth-child(2) {
+    padding-left: 5px;
+}
+
+.team-block:nth-child(5) p {
+    width: 211px;    
 }
 
 /* Footer */
